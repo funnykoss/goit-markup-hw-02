@@ -2,9 +2,11 @@
   --primary-text-color: #212121;
   --title-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+  --white-color: #ffffff;
 }
 body {
-  background-color: #e5e5e5;
+  background-color: var(--primary-background-color);
   color: var(--primary-text-color);
 }
 .list {
@@ -15,6 +17,9 @@ body {
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current{
     color: var(--accent-color);
 }
 .auth-nav .link {
