@@ -4,6 +4,8 @@
   --accent-color: #2196f3;
   --primary-background-color: #e5e5e5;
   --white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --secondary-bg-color: #f5f4fa;
 }
 body {
   background-color: var(--primary-background-color);
@@ -12,19 +14,88 @@ body {
 .list {
   list-style: none;
 }
+/* logo */
+.logo {
+  color: var(--primary-text-color);
+}
+.logo-accent {
+  color: var(--accent-color);
+}
+/* site-nav */
 .site-nav .link {
   color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 .site-nav .link.current {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
-.auth-nav .link {
+/* auth-nav */
+.contacts-nav .link {
   color: var(--primary-text-color);
 }
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-    color: var(--accent-color);
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--primary-text-color);
+}
+.buttons {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.buttons.primary {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.buttons.secondary {
+  background-color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
+}
+.buttons.secondary:hover,
+.buttons.secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/*section*/
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/* features */
+.features .title {
+  color: var(--primary-text-color);
+}
+.features .text {
+  color: var(--title-text-color);
+}
+
+/* team */
+.team .title {
+  color: var(--primary-text-color);
+}
+.team .text {
+  color: var(--title-text-color);
+}
+
+/* footer*/
+
+.logo-footer {
+  color: var(--white-color);
+}
+.adress .adress-map {
+  color: var(--white-color);
+}
+.adress .adress-link {
+  color: var(--secondary-white-color);
+}
+
+/* filters */
