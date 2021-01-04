@@ -147,10 +147,18 @@ body {
 }
 .adress .adress-map {
   color: var(--white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 .adress .adress-link {
   color: var(--secondary-white-color);
-}
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  }
 
 /* filters */
 
