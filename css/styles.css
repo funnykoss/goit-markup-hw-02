@@ -10,6 +10,7 @@
 body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 .list {
   list-style: none;
@@ -99,3 +100,8 @@ body {
 }
 
 /* filters */
+
+/* project */
+.projects .text {
+  color: var(--title-text-color);
+}
