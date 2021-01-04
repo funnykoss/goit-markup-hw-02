@@ -18,6 +18,7 @@ body {
 /* logo */
 .logo {
   color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
 }
 .logo-accent {
   color: var(--accent-color);
@@ -91,6 +92,7 @@ body {
 
 .logo-footer {
   color: var(--white-color);
+  font-family: Raleway, sans-serif;
 }
 .adress .adress-map {
   color: var(--white-color);
