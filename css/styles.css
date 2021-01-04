@@ -22,22 +22,22 @@ body {
   color: var(--accent-color);
 }
 /* site-nav */
-.site-nav .link {
+.site-nav.link {
   color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.site-nav.link.current {
   color: var(--accent-color);
 }
 /* auth-nav */
-.contacts-nav .link {
+.contacts-nav.link {
   color: var(--primary-text-color);
 }
-.contacts-nav .link:hover,
-.contacts-nav .link:focus {
+.contacts-nav.link:hover,
+.contacts-nav.link:focus {
   color: var(--accent-color);
 }
 
@@ -71,7 +71,7 @@ body {
 }
 
 /* features */
-.features .title {
+.features.title {
   color: var(--primary-text-color);
 }
 .features .text {
@@ -79,10 +79,10 @@ body {
 }
 
 /* team */
-.team .title {
+.team.title {
   color: var(--primary-text-color);
 }
-.team .text {
+.team.text {
   color: var(--title-text-color);
 }
 
@@ -91,10 +91,10 @@ body {
 .logo-footer {
   color: var(--white-color);
 }
-.adress .adress-map {
+.adress.adress-map {
   color: var(--white-color);
 }
-.adress .adress-link {
+.adress.adress-link {
   color: var(--secondary-white-color);
 }
 
