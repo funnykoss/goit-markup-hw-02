@@ -87,6 +87,11 @@ body {
 .buttons.secondary {
   background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .buttons.secondary:hover,
 .buttons.secondary:focus {
