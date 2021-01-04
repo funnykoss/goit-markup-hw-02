@@ -192,7 +192,17 @@ body {
 .projects .link{
   text-decoration: none;
 }
+.project-title {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
 .projects .text {
   color: var(--title-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
