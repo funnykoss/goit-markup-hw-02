@@ -5,7 +5,9 @@
   --primary-background-color: #e5e5e5;
   --white-color: #ffffff;
   --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --section-bg-color: #2F303A;
   --secondary-bg-color: #f5f4fa;
+
 }
 body {
   background-color: var(--primary-background-color);
@@ -17,15 +19,18 @@ body {
 }
 /* logo */
 .logo {
+
   color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
 
 }
 .logo-accent {
+
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -35,11 +40,13 @@ body {
 }
 /* site-nav */
 .site-nav .link {
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -55,10 +62,14 @@ body {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
   color: var(--accent-color);
+}
+.navigation{
+  background-color: var(--white-color);
 }
 
 /* Hero */
@@ -101,11 +112,14 @@ body {
   color: var(--white-color);
 }
 
+.hero{
+  background-color: var(--section-bg-color);
+}
 /*section*/
 
 .section-title {
   color: var(--primary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -115,7 +129,7 @@ body {
 /* features */
 .features .title {
   color: var(--primary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -142,7 +156,9 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-
+.wokers{
+  background-color: #F5F4FA;
+}
 /* footer*/
 
 .logo-footer {
@@ -151,6 +167,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .adress .adress-map {
   color: var(--white-color);
@@ -172,6 +189,10 @@ body {
 /* filters */
 
 /* project */
+.projects .link{
+  text-decoration: none;
+}
 .projects .text {
   color: var(--title-text-color);
+  text-decoration: none;
 }
