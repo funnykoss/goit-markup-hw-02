@@ -19,16 +19,18 @@ body {
 .logo {
   color: var(--primary-text-color);
   font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 
 }
 .logo-accent {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 /* site-nav */
@@ -36,7 +38,7 @@ body {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
@@ -51,7 +53,7 @@ body {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .contacts-nav .link:hover,
@@ -64,7 +66,7 @@ body {
   color: var(--secondary-white-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -72,25 +74,25 @@ body {
 .buttons {
   background-color: var(--accent-color);
   color: var(--white-color);
-  font-weight: bold;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  align-items: center;
-  text-align: center;
+  line-height: 1.8;
   letter-spacing: 0.06em;
 }
 
 .buttons.primary {
   background-color: var(--accent-color);
   color: var(--white-color);
+  
 }
 .buttons.secondary {
   background-color: var(--secondary-bg-color);
   color: var(--primary-text-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  text-align: center;
+  line-height: 1.8;
   letter-spacing: 0.03em;
 }
 .buttons.secondary:hover,
@@ -105,7 +107,7 @@ body {
   color: var(--primary-text-color);
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
   }
@@ -115,14 +117,14 @@ body {
   color: var(--primary-text-color);
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features .text {
   color: var(--title-text-color);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
 }
 
@@ -131,13 +133,13 @@ body {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .team .text {
   color: var(--title-text-color);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
@@ -147,21 +149,23 @@ body {
   color: var(--white-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .adress .adress-map {
   color: var(--white-color);
+  font-weight: 700;
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
 }
 .adress .adress-link {
   color: var(--secondary-white-color);
+  font-weight: 700;
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   }
 
