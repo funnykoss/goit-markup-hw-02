@@ -29,6 +29,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
 
   background-color: var(--accent-color);
   color: var(--background-color);
@@ -38,6 +39,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  cursor: pointer;
 
   background-color: var(--background-color);
   color: var(--primary-text-color);
