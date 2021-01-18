@@ -8,6 +8,7 @@
   --background-color: #ffffff;
   --main-lite-color: rgba(255, 255, 255, 0.6);
   --footer-bg-color: #2f303a;
+  --main-bg-color: #f5f4fa;
 }
 body {
   font-family: var(--main-font);
@@ -41,7 +42,7 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
 
-  background-color: var(--background-color);
+  background-color: var(--main-bg-color);
   color: var(--primary-text-color);
 
   font-family: inherit;
@@ -49,7 +50,7 @@ body {
 .buttons.secondary:hover,
 .buttons.secondary:focus {
   background-color: var(--accent-color);
-  color: var(--background-color);
+  color: var(--main-bg-color);
 }
 
 .section-title {
@@ -159,7 +160,7 @@ body {
   letter-spacing: 0.03em;
 }
 .wokers {
-  background-color: #f5f4fa;
+  background-color: var(--main-bg-color);
 }
 
 /* ==== END ABOUT ==== */
